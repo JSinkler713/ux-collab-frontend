@@ -1,6 +1,10 @@
 body {
-  background: gray;
+  background: #081817;
   color: #41FFE8;
+}
+a:visited {
+  color: #41FFE8;
+  text-decoration: none;
 }
 
 .App {
@@ -76,4 +80,25 @@ mix-blend-mode: normal;
   border: 4px;
   border-radius: 2px;
   color: #41FFE8;
+}
+.home {
+  text-align: center;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px; 
+  line-height: 45px;
+  color: #41FFE8;
+  opacity: 0.8;
+
+}
+.nav {
+  display: flex;   
+}
+div {
+  align: space-between;
+  justify-content:space-between;
+}
+.progressbar {
+  display:flex;
 }

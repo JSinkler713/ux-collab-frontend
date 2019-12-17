@@ -7,6 +7,9 @@ class SignUp1 extends Component {
 
     return(
       <div>
+        <div className="progressBar">
+          <div>&#60;</div><div>1 of 3</div><div>&#935;</div>
+        </div>
       <div>
         <p>Stay up-to-date with the latest VR news!</p>
       </div>
