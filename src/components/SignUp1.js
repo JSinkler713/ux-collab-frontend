@@ -12,7 +12,7 @@ class SignUp1 extends Component {
       </div>
       <div>
       <form>
-    <div className="emailInput">E-mail Address* (i)</div>
+    <div className="emailInput">E-mail Address*<span className="info">&#8505;</span></div>
         <input>
         </input>
       </form>

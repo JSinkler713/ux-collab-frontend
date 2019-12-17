@@ -54,7 +54,6 @@ opacity: 0.8;
 }
 
 .emailInput {
-  position: absolute;
 height: 36px;
 left: 0%;
 right: 66.38%;
@@ -71,4 +70,10 @@ line-height: 38px;
 color: #41FFE8;
 
 mix-blend-mode: normal;
+}
+
+.info {
+  border: 4px;
+  border-radius: 2px;
+  color: #41FFE8;
 }
