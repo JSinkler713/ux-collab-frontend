@@ -1,5 +1,9 @@
+body {
+  background: gray;
+  color: #41FFE8;
+}
+
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -35,4 +39,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+p {
+  font-family: Muli;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 45px;
+color: #41FFE8;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+
+.emailInput {
+  position: absolute;
+height: 36px;
+left: 0%;
+right: 66.38%;
+top: calc(50% - 38px/2 - 58px);
+
+font-family: Muli;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #41FFE8;
+
+mix-blend-mode: normal;
 }

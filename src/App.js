@@ -1,11 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Link } from 'react-router-dom'
+import routes from './config/routes'
 
 function App() {
   return (
     <div className="App">
-      <h1> hey </h1>
+      <Link to={'/SignUp1'}>Sign-up</Link>
+      <Link to={'/'}> Home </Link>
+      {routes}
     </div>
   );
 }
