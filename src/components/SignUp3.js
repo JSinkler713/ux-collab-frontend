@@ -8,7 +8,10 @@ class SignUp2 extends Component {
 
     return(
       <div>
-        <p>Your on page 3</p>
+        <div className="progressBar">
+          <div>&#60;</div><div>2 of 3</div><div><Link to={'/'}>&#935;</Link></div>
+        </div>
+        <p>How often do you want to hear from us?</p>
       </div>
     )
   }

@@ -97,8 +97,32 @@ mix-blend-mode: normal;
 }
 div {
   align: space-between;
-  justify-content:space-between;
+  justify-content:space-around;
 }
-.progressbar {
+.progressBar {
   display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin:10px;
 }
+input {
+  height: 30px;
+  width: 75%;
+  background: rgb(23, 36, 35);
+}
+.terms p{
+  font-size: 12px;
+}
+.topic {
+  background: rgb(23, 36,35);
+  color: #41FFE8;
+  width: 20%;
+  height: 50px;
+  border-radius:44px;
+  margin: 2%;
+}
+
+.topic :hover {
+  border: 2px solid #41FFE8;
+}
+
