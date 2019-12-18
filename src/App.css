@@ -1,13 +1,19 @@
+html {
+  min-height: 100%
+}
 body {
   background: #081817;
   color: #41FFE8;
+  min-height:95%;
 }
-a:visited {
+.homelinks:visited {
   color: #41FFE8;
   text-decoration: none;
 }
 
 .App {
+ position: relative;
+ min-height:95%
 }
 
 .App-logo {
@@ -82,17 +88,19 @@ mix-blend-mode: normal;
   color: #41FFE8;
 }
 .home {
-  text-align: center;
   font-family: Muli;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px; 
-  line-height: 45px;
-  color: #41FFE8;
-  opacity: 0.8;
-
+  font-style: italic;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
 }
 .nav {
+ font-family: Muli;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 19px;
   display: flex;   
 }
 div {
@@ -107,8 +115,16 @@ div {
 }
 input {
   height: 30px;
-  width: 75%;
+  width: 85%;
   background: rgb(23, 36, 35);
+  font-family: Muli;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 19px;
+/* identical to box height */
+opacity: 0.8;
+color: #FFFFFF;
 }
 .terms p{
   font-size: 12px;
@@ -121,8 +137,55 @@ input {
   border-radius:44px;
   margin: 2%;
 }
-
-.topic :hover {
-  border: 2px solid #41FFE8;
+.frequency {
+  background: rgb(23, 36,35);
+  color: #41FFE8;
+  width: 96%;
+  height: 60px;
+  border-radius:44px;
+  margin: 2%;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
 }
 
+.active {
+  border: 4px solid #41FFE8;
+}
+.footerSignUp {
+  display: flex;
+  flex-display: reverse;
+}
+.radioContainer {
+  width: 100%
+}
+.radioContainer input {
+  width:25%
+}
+.selected {
+  border: 2px solid #41FFE8;
+}
+.bottomLink {
+  position: absolute;
+  right: 4%;
+  top: 87.41%;
+  bottom: 3.6%;
+  background: #41FFE8;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  width: 135.5px;
+  height: 60px;
+  left: 224.5px;
+  top: 583px;
+  text-align: center;
+  color: #000000;  
+} 
+a .bottomlink {
+  color:#000000;
+}
+.frequency:focus {
+  border: 4px solid #41FFE8;
+}
