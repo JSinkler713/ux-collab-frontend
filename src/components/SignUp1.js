@@ -20,8 +20,8 @@ class SignUp1 extends Component {
         <input onChange={this.props.handleEmail} className='email' placeholder='sophia.my.song@gmail.com'>
         </input>
     <div>Name*<span className="info">&#8505;</span></div>
-        <input className='first' placeholder='sophia'></input>
-        <input className='last' placeholder='song'></input>
+        <input onChange={this.props.handleFirstName} className='first' placeholder='sophia'></input>
+        <input onChange={this.props.handleLastName} className='last' placeholder='song'></input>
       </form>
       </div>
         <div className='terms'>

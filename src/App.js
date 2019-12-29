@@ -21,7 +21,12 @@ class App extends Component {
   handleEmail = (e) => {
     this.setState({email: (e.target.value)})
   }
-
+  handleFirstName = (e) => {
+    this.setState({firstName: (e.target.value)})
+  }
+  handleLastName = (e) => {
+    this.setState({lastName: (e.target.value)})
+  }
   frequencyChoose = (e)=> {
     e.preventDefault();
     this.setState({frequency: e.target.value}) 
@@ -43,7 +48,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={ Home }/>
             <Route path='/SignUp1' render={ routerProps=> {
-              return <SignUp1  handleEmail={ this.handleEmail } />
+              return <SignUp1 handleFirstName={this.handleFirstName} handleLastName={this.handleLastName} handleEmail={ this.handleEmail } />
               }} />
             <Route path='/SignUp2' render={ routerProps=> {
               return <SignUp2  topics={this.state.topics} topicChoose={ this.topicChoose } />
