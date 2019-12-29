@@ -59,7 +59,7 @@ class App extends Component {
             }} />
    
           <Route path='/SignUp4' render={ routerProps=> {
-              return <SignUp4 frequency={ this.state.frequency } />
+              return <SignUp4 frequency={ this.state.frequency } firstName={this.state.firstName} email={this.state.email} topics={this.state.topics}/>
             }} />
 
           </Switch>

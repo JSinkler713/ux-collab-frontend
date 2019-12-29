@@ -13,11 +13,14 @@ class SignUp4 extends Component {
           <div><Link to={'/'}>&#935;</Link></div>
         </div>
         <div>  
-          <p>Thank you for signing up!</p>
+          <p>Thank you for signing up {this.props.firstName}!</p>
         </div>
         <div className='terms'>
-          <p>You will receive our newsletter {this.props.frequency}</p>
-          <p>We'll send you a confirmation to the email you provided</p>
+          <p>You will receive our newsletter about {this.props.topics.map((topic, i)=> {
+            return topic + ', '
+          })
+            } {this.props.frequency}!</p>
+          <p>We'll send you a confirmation to {this.props.email}</p>
         </div>    
       </div>
     )
