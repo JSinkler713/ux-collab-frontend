@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import routes from '../config/routes'   
+import routes from '../config/routes'  
+
 class SignUp1 extends Component {
 
   render(){
@@ -16,7 +17,7 @@ class SignUp1 extends Component {
       <div>
       <form>
     <div>E-mail Address*<span className="info">&#8505;</span></div>
-        <input className='email' placeholder='sophia.my.song@gmail.com'>
+        <input onChange={this.props.handleEmail} className='email' placeholder='sophia.my.song@gmail.com'>
         </input>
     <div>Name*<span className="info">&#8505;</span></div>
         <input className='first' placeholder='sophia'></input>
